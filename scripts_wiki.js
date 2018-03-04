@@ -17,7 +17,6 @@
     }
 });
 
-
    $('#submitButton').click(function() {
 
     $("#footer").hide();
@@ -48,9 +47,6 @@
     $('#searchBar').val("");
     $( ".result" ).remove();
     $("#footer").show();
-
-}
-
+   }
    });
-
  });
